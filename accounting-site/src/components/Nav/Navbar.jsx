@@ -3,6 +3,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <div className="navbar">
+      <h1 className="logo">Logo</h1>
       <h1 className="navlink">
         <a href="#home">Home</a>
       </h1>

@@ -34,9 +34,9 @@ function Home() {
           <div className="about-content">
             <h2 className="section-title">Why Choose Our Accounting Firm?</h2>
             <p className="about-text">
-              lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-              facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et
-              ultrices posuere cubilia curae; Nulla facilisi.
+              Accuracy. Integrity. Results. Our team combines expert knowledge
+              with a client-first approach to ensure your financial goals are
+              met with confidence and clarity.
             </p>
           </div>
         </div>

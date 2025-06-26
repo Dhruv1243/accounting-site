@@ -23,3 +23,6 @@
 .navlink a:hover {
   color: #3b82f6; /* subtle blue hover */
 }
+.logo {
+  padding-right: 45%;
+}

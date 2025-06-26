@@ -5,7 +5,7 @@ import Email from "../../assets/email.png";
 
 function Home() {
   return (
-    <div className="home-container">
+    <div className="home-container" id="home">
       <section className="hero-section">
         <div className="hero-content">
           <div className="hero-text">

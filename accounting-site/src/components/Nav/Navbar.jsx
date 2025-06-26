@@ -1,13 +1,13 @@
+import "./Navbar.css";
+
 function Navbar() {
-  <div className="navbar">
-    <nav>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
-  </div>;
+  return (
+    <div className="navbar">
+      <h1 className="navlink">Home</h1>
+      <h1 className="navlink">About</h1>
+      <h1 className="navlink">Contact</h1>
+    </div>
+  );
 }
 
 export default Navbar;

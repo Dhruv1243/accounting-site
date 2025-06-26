@@ -29,7 +29,7 @@ function Home() {
       </section>
 
       {/* About Section */}
-      <section className="about-section">
+      <section className="about-section" id="about">
         <div className="container">
           <div className="about-content">
             <h2 className="section-title">Why Choose Our Accounting Firm?</h2>
@@ -43,7 +43,7 @@ function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="services-section">
+      <section className="services-section" id="services">
         <div className="container">
           <h2 className="section-title">Our Professional Services</h2>
           <p className="section-subtitle">
@@ -99,7 +99,7 @@ function Home() {
         </div>
       </section>
 
-      <section className="location-section">
+      <section className="location-section" id="location">
         <div className="location-container">
           <h2 className="section-title">Where We're Located</h2>
 
@@ -117,7 +117,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className="contact-section">
+      <section className="contact-section" id="contact">
         <div className="contact-container">
           <h2 className="section-title">Contact Us</h2>
           <p>Have some questions? We'd love to hear from you!</p>

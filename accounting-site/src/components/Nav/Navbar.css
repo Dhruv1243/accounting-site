@@ -10,15 +10,16 @@
   justify-content: center;
 }
 
-.navlink {
+.navlink a {
   text-decoration: none;
   color: white;
   cursor: pointer;
   font-weight: bold;
   margin: 0 10px;
   transition: color 0.3s ease;
+  font-size: 25px;
 }
 
-.navlink:hover {
+.navlink a:hover {
   color: #3b82f6; /* subtle blue hover */
 }

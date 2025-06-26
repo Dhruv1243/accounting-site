@@ -4,5 +4,13 @@
   "why": "Why Choose Our Accounting Firm?",
   "why-desc": "Accuracy. Integrity. Results. Our team combines expert knowledge with a client-first approach to ensure your financial goals are met with confidence and clarity.",
   "services": "Our Professional Services",
-  "services-desc": "Comprehensive accounting solutions designed to meet all your financial needs."
+  "services-desc": "Comprehensive accounting solutions designed to meet all your financial needs.",
+  "located": "Where We're Located",
+  "contact": "Contact Us",
+  "contact-desc": "Have some questions? We'd love to hear from you!",
+  "nav-home": "Home",
+  "nav-about": "About",
+  "nav-services": "Services",
+  "nav-location": "Location",
+  "nav-contact": "Contact"
 }

@@ -4,5 +4,13 @@
   "why": "Ce qui nous distingue des autres cabinets comptables?",
   "why-desc": "Précision. Intégrité. Résultats. Notre équipe allie expertise comptable et approche personnalisée pour vous aider à atteindre vos objectifs financiers en toute confiance et transparence.",
   "services": "Nos Services Professionnels",
-  "services-desc": "Des solutions comptables complètes conçues pour répondre à tous vos besoins financiers."
+  "services-desc": "Des solutions comptables complètes conçues pour répondre à tous vos besoins financiers.",
+  "located": "Où nous trouver",
+  "contact": "Nous Contacter",
+  "contact-desc": "Vous avez des questions ? Ça nous ferait plaisir de vous répondre !",
+  "nav-home": "Accueil",
+  "nav-about": "À propos",
+  "nav-services": "Services",
+  "nav-location": "Emplacement",
+  "nav-contact": "Contact"
 }

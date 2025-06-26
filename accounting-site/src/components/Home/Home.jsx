@@ -90,7 +90,7 @@ function Home() {
 
       <section className="location-section" id="location">
         <div className="location-container">
-          <h2 className="section-title">Where We're Located</h2>
+          <h2 className="section-title">{t("located")}</h2>
 
           <div className="map-wrapper">
             <iframe
@@ -108,8 +108,8 @@ function Home() {
       </section>
       <section className="contact-section" id="contact">
         <div className="contact-container">
-          <h2 className="section-title">Contact Us</h2>
-          <p>Have some questions? We'd love to hear from you!</p>
+          <h2 className="section-title">{t("contact")}</h2>
+          <p>{t("contact-desc")}</p>
           <div className="contact-icons">
             <div className="icon">
               <img src={Phone} alt="An icon of a phone" />

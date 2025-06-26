@@ -58,3 +58,7 @@
   color: black;
   border-color: #ffe5b4;
 }
+.language-switcher button.active-lang {
+  background-color: #1e293b;
+  color: white;
+}

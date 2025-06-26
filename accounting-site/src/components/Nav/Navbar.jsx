@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 
 function Navbar() {
   const { i18n } = useTranslation();
+  const currentLang = i18n.language;
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
@@ -30,8 +31,18 @@ function Navbar() {
       </div>
 
       <div className="language-switcher">
-        <button onClick={() => changeLanguage("en")}>EN</button>
-        <button onClick={() => changeLanguage("fr")}>FR</button>
+        <button
+          onClick={() => changeLanguage("en")}
+          className={currentLang === "en" ? "active-lang" : ""}
+        >
+          EN
+        </button>
+        <button
+          onClick={() => changeLanguage("fr")}
+          className={currentLang === "fr" ? "active-lang" : ""}
+        >
+          FR
+        </button>
       </div>
     </div>
   );

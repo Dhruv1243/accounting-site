@@ -101,9 +101,7 @@ function Home() {
 
       <section className="location-section">
         <div className="location-container">
-          <h2 className="section-title">
-            Visit our office to learn more about our services
-          </h2>
+          <h2 className="section-title">Where We're Located</h2>
 
           <div className="map-wrapper">
             <iframe

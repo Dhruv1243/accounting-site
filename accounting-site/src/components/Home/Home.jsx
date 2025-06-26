@@ -2,21 +2,17 @@ import "./Home.css";
 import StockImage from "../../assets/accounting-stock-image.jpg";
 import Phone from "../../assets/phone.png";
 import Email from "../../assets/email.png";
+import { useTranslation } from "react-i18next";
 
 function Home() {
+  const { t } = useTranslation();
   return (
     <div className="home-container" id="home">
       <section className="hero-section">
         <div className="hero-content">
           <div className="hero-text">
-            <h1 className="hero-title">
-              Professional Accounting Services You Can Trust
-            </h1>
-            <p className="hero-subtitle">
-              Expert financial guidance for businesses and individuals. We help
-              you navigate complex financial landscapes with confidence and
-              precision.
-            </p>
+            <h1 className="hero-title">{t("welcome")}</h1>
+            <p className="hero-subtitle">{t("subheader")}.</p>
           </div>
           <div className="hero-image">
             <img
@@ -32,12 +28,8 @@ function Home() {
       <section className="about-section" id="about">
         <div className="container">
           <div className="about-content">
-            <h2 className="section-title">Why Choose Our Accounting Firm?</h2>
-            <p className="about-text">
-              Accuracy. Integrity. Results. Our team combines expert knowledge
-              with a client-first approach to ensure your financial goals are
-              met with confidence and clarity.
-            </p>
+            <h2 className="section-title">{t("why")}</h2>
+            <p className="about-text">{t("why-desc")}</p>
           </div>
         </div>
       </section>
@@ -45,11 +37,8 @@ function Home() {
       {/* Services Section */}
       <section className="services-section" id="services">
         <div className="container">
-          <h2 className="section-title">Our Professional Services</h2>
-          <p className="section-subtitle">
-            Comprehensive accounting solutions designed to meet all your
-            financial needs
-          </p>
+          <h2 className="section-title">{t("services")}</h2>
+          <p className="section-subtitle">{t("services-desc")}</p>
           <div className="services-grid">
             <div className="service-card">
               <div className="service-icon">📊</div>

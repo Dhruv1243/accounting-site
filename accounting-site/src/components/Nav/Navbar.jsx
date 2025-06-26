@@ -1,24 +1,38 @@
 import "./Navbar.css";
+import Logo from "../../assets/logo.png";
+import { useTranslation } from "react-i18next";
 
 function Navbar() {
+  const { i18n } = useTranslation();
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
   return (
     <div className="navbar">
-      <h1 className="logo">Logo</h1>
-      <h1 className="navlink">
-        <a href="#home">Home</a>
-      </h1>
-      <h1 className="navlink">
-        <a href="#about">About</a>
-      </h1>
-      <h1 className="navlink">
-        <a href="#services">Services</a>
-      </h1>
-      <h1 className="navlink">
-        <a href="#location">Location</a>
-      </h1>
-      <h1 className="navlink">
-        <a href="#contact">Contact</a>
-      </h1>
+      <img className="logo" src={Logo} alt="Logo" />
+
+      <div className="nav-links">
+        <h1 className="navlink">
+          <a href="#home">Home</a>
+        </h1>
+        <h1 className="navlink">
+          <a href="#about">About</a>
+        </h1>
+        <h1 className="navlink">
+          <a href="#services">Services</a>
+        </h1>
+        <h1 className="navlink">
+          <a href="#location">Location</a>
+        </h1>
+        <h1 className="navlink">
+          <a href="#contact">Contact</a>
+        </h1>
+      </div>
+
+      <div className="language-switcher">
+        <button onClick={() => changeLanguage("en")}>EN</button>
+        <button onClick={() => changeLanguage("fr")}>FR</button>
+      </div>
     </div>
   );
 }

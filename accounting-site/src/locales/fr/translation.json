@@ -1,16 +1,55 @@
 {
-  "welcome": "Des services comptables professionnels, fiables et personnalisés.",
-  "subheader": "Des conseils financiers sur mesure pour entreprises et particuliers. On vous accompagne avec clarté et confiance dans la gestion de vos finances.",
-  "why": "Ce qui nous distingue des autres cabinets comptables?",
-  "why-desc": "Précision. Intégrité. Résultats. Notre équipe allie expertise comptable et approche personnalisée pour vous aider à atteindre vos objectifs financiers en toute confiance et transparence.",
+  "welcome": "Structura Compta - Services comptables pour particuliers et petites entreprises, partout au Canada.",
+  "subheader": "Structura Compta est un cabinet de services comptables professionels offrant un accompagnement humain, rigoureux et accessible pour les particuliers, travailleurs autonomes et PME à travers tout le Canada. Notre Mission : Simplifer la comptabilité de nos clients avec efficacité, discretion et clarté.                                                Nos services sont disponibles à distance ou en personne selon vos besoins.",
+  "why": "À Propos",
+  "why-desc": "Structura Compta à été fondée par Coassy Sender Karvens, technicien diplômé en comptabilité (DEP), avec pour objectif de soutenir les entrepreneurs et les particuliers dans leur gestion comptable et fiscale. \nL'entreprise est officiellement enregistrée :\n  - Au fédéral avec un numéro d’entreprise (NE) auprès de l’ARC\n  - Au Québec avec un numéro d’entreprise du Québec (NEQ)",
+  "why-desc2": "L'entreprise est officiellement enregistrée :",
+  "why-desc3": "Nous sommes autorisés à transmettre les déclarations fiscales par voie électronique (TED) et à agir de comme représentant auprès de l'ARC et de Revenue Quebec",
+  "federal": "Au fédéral avec un numéro d’entreprise (NE) auprès de l’ARC",
+  "quebec": "Au Québec avec un numéro d’entreprise du Québec (NEQ)",
   "services": "Nos Services Professionnels",
   "services-desc": "Des solutions comptables complètes conçues pour répondre à tous vos besoins financiers.",
-  "located": "Où nous trouver",
+  "transparency": "Transparence Professionnelle",
+  "transparency-desc": "Structura Compta est dirigée par un technicien en comptabilité (DEC). Nous ne somme pas membres de l'Ordre des CPA et n'offrons pas de services d'audit, de vérification, de mission d'examen, ni de déclarations fiscales corporatives complexes (T2/CO-17). Tous les services sont fournis dans le respect des lois fiscales fédérales et provinciales, en conformité avec notre formation et autorisation légale.",
   "contact": "Nous Contacter",
   "contact-desc": "Vous avez des questions ? Ça nous ferait plaisir de vous répondre !",
+  "service1": {
+    "title": "Tenue de livres",
+    "desc1": "- Saise des revenues et dépenses",
+    "desc2": "- Conciliation bancaire",
+    "desc3": "- Rapport mensuels ou trimstriels",
+    "desc4": "- Suivi des comptes clients/fournisseurs"
+  },
+  "service2": {
+    "title": "Services pour les nouvelles entreprises",
+    "desc1": "- Demande de NE (numéro d'entreprise fédéral)",
+    "desc2": "- Demande de NEQ (numéro d'entreprise du Quebec)",
+    "desc3": "- Inscription à la TPS/TVH et à la TVQ",
+    "desc4": "- Soutien administratif complet au démarrage"
+  },
+  "service3": {
+    "title": "Taxes (TPS, TVH et TVQ)",
+    "desc1": "- Inscription et activation de comptes de taxes",
+    "desc2": "- Déclarations périodiques (mensuelles, trimestrielles et annuelles)",
+    "desc3": "- Remises fiscales et suivi des soldes"
+  },
+  "service4": {
+    "title": "Paie et déductions à la source",
+    "desc1": "- Préparation de la paie (calculs bruts et nets)",
+    "desc2": "- Déduction à la source (DAS)",
+    "desc3": "- Production et transmission des T4, T4A, Relevés 1, etc",
+    "desc4": "- Soutien aux obligations de l'employeur"
+  },
+  "service5": {
+    "title": "Déclarations des revenus (impôts)",
+    "desc1": "- Déclarations T1 (fédéral) et TP1 (provincial)",
+    "desc2": "- Travailleurs autonomes (T2125, TP-80)",
+    "desc3": "- Remises fiscales et suivi des soldes",
+    "desc4": "- Transmission électronique (TED)"
+  },
   "nav-home": "Accueil",
   "nav-about": "À propos",
   "nav-services": "Services",
-  "nav-location": "Emplacement",
+  "nav-transparency": "Transparence",
   "nav-contact": "Contact"
 }

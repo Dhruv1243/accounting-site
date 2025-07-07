@@ -1,18 +1,19 @@
 /* Reset and Base Styles */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  /*Selects all elements and applies this to it */
+  margin: 0; /*This is to remove the default margin */
+  padding: 0; /*This is to remove the default padding applied by the browser */
+  box-sizing: border-box; /*This is to include the padding and border in the total width and height of the element, content shrinks to fit inside the box */
 }
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 150px; /* Navbar height */
+  scroll-padding-top: 150px; /* Offets the scroll position by 150px when jumping to links, prevents content from being hidden behind the navbar */
 }
 
 .home-container {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /*Just sets the font */
+  line-height: 1.6; /*Controls the vertical spacing between lines of text */
   color: #333;
 }
 
@@ -45,7 +46,7 @@ html {
 }
 
 .hero-title {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
   color: #1e293b;
   margin-bottom: 20px;
@@ -53,7 +54,7 @@ html {
 }
 
 .hero-subtitle {
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: black;
   margin-bottom: 30px;
 }
@@ -70,15 +71,37 @@ html {
 .about-section {
   padding: 100px 20px;
   background: white;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
 }
 
 .about-content {
   text-align: center;
-  max-width: 800px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+}
+
+.about-text {
+  margin: 20px 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.about-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin: 20px auto;
+  text-align: left;
+  display: inline-block; /* Keeps it centered visually while text-align is left */
+}
+
+.about-list li {
+  margin: 8px 0;
+  font-size: 1.05rem;
 }
 
 .section-title {
@@ -174,6 +197,7 @@ html {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  padding-bottom: 20px;
 }
 
 /* Contact Section */

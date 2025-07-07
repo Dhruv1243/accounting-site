@@ -1,16 +1,55 @@
 {
-  "welcome": "Professional Accounting Services You Can Trust",
-  "subheader": "Expert financial guidance for businesses and individuals. We help you navigate complex financial landscapes with confidence and precision.",
-  "why": "Why Choose Our Accounting Firm?",
-  "why-desc": "Accuracy. Integrity. Results. Our team combines expert knowledge with a client-first approach to ensure your financial goals are met with confidence and clarity.",
+  "welcome": "Structura Compta - Accounting services for individuals and small businesses across Canada.",
+  "subheader": "Structura Compta is a professional accounting firm offering a human, rigorous, and accessible approach to individuals, self-employed workers, and SMEs across Canada. Our Mission: Simplify our clients’ accounting with efficiency, discretion, and clarity. Our services are available remotely or in person based on your needs.",
+  "why": "About Us",
+  "why-desc": "Structura Compta was founded by Coassy Sender Karvens, a certified accounting technician (DEP), with the goal of supporting entrepreneurs and individuals in their accounting and tax management. \nThe company is officially registered:\n  - Federally with a Business Number (BN) from the CRA\n  - In Quebec with a Quebec Enterprise Number (NEQ)",
+  "why-desc2": "The company is officially registered:",
+  "why-desc3": "We are authorized to submit tax returns electronically (TED) and act as a representative with the CRA and Revenu Québec.",
+  "federal": "Federally with a Business Number (BN) from the CRA",
+  "quebec": "In Quebec with a Quebec Enterprise Number (NEQ)",
   "services": "Our Professional Services",
-  "services-desc": "Comprehensive accounting solutions designed to meet all your financial needs.",
-  "located": "Where We're Located",
+  "services-desc": "Complete accounting solutions designed to meet all your financial needs.",
+  "transparency": "Professional Transparency",
+  "transparency-desc": "Structura Compta is run by a certified accounting technician (DEC). We are not members of the CPA Order and do not offer audit services, reviews, assurance engagements, or complex corporate tax returns (T2/CO-17). All services are provided in compliance with federal and provincial tax laws, in accordance with our training and legal authorization.",
   "contact": "Contact Us",
-  "contact-desc": "Have some questions? We'd love to hear from you!",
+  "contact-desc": "Do you have questions? We’d be happy to answer them!",
+  "service1": {
+    "title": "Bookkeeping",
+    "desc1": "- Entry of income and expenses",
+    "desc2": "- Bank reconciliation",
+    "desc3": "- Monthly or quarterly reports",
+    "desc4": "- Customer/vendor account tracking"
+  },
+  "service2": {
+    "title": "Services for New Businesses",
+    "desc1": "- Request for BN (federal business number)",
+    "desc2": "- Request for NEQ (Quebec business number)",
+    "desc3": "- GST/HST and QST registration",
+    "desc4": "- Complete administrative support for startups"
+  },
+  "service3": {
+    "title": "Taxes (GST, HST, and QST)",
+    "desc1": "- Tax account registration and activation",
+    "desc2": "- Periodic returns (monthly, quarterly, and annually)",
+    "desc3": "- Tax remittances and balance tracking"
+  },
+  "service4": {
+    "title": "Payroll and Source Deductions",
+    "desc1": "- Payroll preparation (gross and net calculations)",
+    "desc2": "- Source deductions (DAS)",
+    "desc3": "- Filing and submission of T4, T4A, RL-1, etc.",
+    "desc4": "- Support for employer obligations"
+  },
+  "service5": {
+    "title": "Income Tax Returns",
+    "desc1": "- T1 (federal) and TP1 (provincial) returns",
+    "desc2": "- Self-employed workers (T2125, TP-80)",
+    "desc3": "- Tax remittances and balance tracking",
+    "desc4": "- Electronic filing (TED)"
+  },
   "nav-home": "Home",
   "nav-about": "About",
   "nav-services": "Services",
-  "nav-location": "Location",
+  "nav-transparency": "Transparency",
   "nav-contact": "Contact"
 }

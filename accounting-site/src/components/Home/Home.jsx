@@ -1,4 +1,5 @@
 import "./Home.css";
+import ContactForm from "../ContactForm/ContactForm";
 import StockImage from "../../assets/accounting-stock-image.jpg";
 import Phone from "../../assets/phone.png";
 import Email from "../../assets/email.png";
@@ -30,6 +31,12 @@ function Home() {
           <div className="about-content">
             <h2 className="section-title">{t("why")}</h2>
             <p className="about-text">{t("why-desc")}</p>
+            <p className="about-text">{t("why-desc2")}</p>
+            <ul className="about-list">
+              <li>{t("federal")}</li>
+              <li>{t("quebec")}</li>
+            </ul>
+            <p className="about-text">{t("why-desc3")}</p>
           </div>
         </div>
       </section>
@@ -41,47 +48,50 @@ function Home() {
           <p className="section-subtitle">{t("services-desc")}</p>
           <div className="services-grid">
             <div className="service-card">
-              <div className="service-icon">📊</div>
-              <h3 className="service-title">Tax Preparation & Planning</h3>
+              <div className="service-icon">📘</div>
+              <h3 className="service-title">{t("service1.title")}</h3>
+              <p className="service-description">{t("service1.desc1")}</p>
+              <p className="service-description">{t("service1.desc2")}</p>
+              <p className="service-description">{t("service1.desc3")}</p>
+              <p className="service-description">{t("service1.desc4")}</p>
+            </div>
+            <div className="service-card">
+              <div className="service-icon">🏢</div>
+              <h3 className="service-title">{t("service2.title")}</h3>
               <p className="service-description">
-                Expert tax preparation and strategic planning to minimize your
-                tax liability while ensuring full compliance with current
-                regulations.
+                <p className="service-description">{t("service2.desc1")}</p>
+                <p className="service-description">{t("service2.desc2")}</p>
+                <p className="service-description">{t("service2.desc3")}</p>
+                <p className="service-description">{t("service2.desc4")}</p>
               </p>
             </div>
             <div className="service-card">
-              <div className="service-icon">💼</div>
-              <h3 className="service-title">Business Accounting</h3>
+              <div className="service-icon">🧾</div>
+              <h3 className="service-title">{t("service3.title")}</h3>
               <p className="service-description">
-                Complete bookkeeping, financial reporting, and business advisory
-                services to keep your company's finances organized and
-                optimized.
+                <p className="service-description">{t("service3.desc1")}</p>
+                <p className="service-description">{t("service3.desc2")}</p>
+                <p className="service-description">{t("service3.desc3")}</p>
               </p>
             </div>
             <div className="service-card">
-              <div className="service-icon">📈</div>
-              <h3 className="service-title">Financial Consulting</h3>
+              <div className="service-icon">👩</div>
+              <h3 className="service-title">{t("service4.title")}</h3>
               <p className="service-description">
-                Strategic financial advice and planning to help you make
-                informed decisions and achieve your long-term financial goals.
+                <p className="service-description">{t("service4.desc1")}</p>
+                <p className="service-description">{t("service4.desc2")}</p>
+                <p className="service-description">{t("service4.desc3")}</p>
+                <p className="service-description">{t("service4.desc4")}</p>
               </p>
             </div>
             <div className="service-card">
-              <div className="service-icon">🔍</div>
-              <h3 className="service-title">Audit & Assurance</h3>
+              <div className="service-icon">🏛️</div>
+              <h3 className="service-title">{t("service5.title")}</h3>
               <p className="service-description">
-                Thorough financial audits and assurance services to ensure
-                accuracy, compliance, and transparency in your financial
-                reporting.
-              </p>
-            </div>
-            <div className="service-card">
-              <div className="service-icon">💰</div>
-              <h3 className="service-title">Payroll Management</h3>
-              <p className="service-description">
-                Comprehensive payroll processing, tax withholding, and
-                compliance management to streamline your employee compensation
-                processes.
+                <p className="service-description">{t("service5.desc1")}</p>
+                <p className="service-description">{t("service5.desc2")}</p>
+                <p className="service-description">{t("service5.desc3")}</p>
+                <p className="service-description">{t("service5.desc4")}</p>
               </p>
             </div>
           </div>
@@ -90,11 +100,16 @@ function Home() {
 
       <section className="location-section" id="location">
         <div className="location-container">
-          <h2 className="section-title">{t("located")}</h2>
-
+          <h2 className="section-title">{t("transparency")}</h2>
+          <p>{t("transparency-desc")}</p>
+        </div>
+      </section>
+      <section className="contact-section" id="contact">
+        <div className="contact-container">
+          <h2 className="section-title">{t("contact")}</h2>
           <div className="map-wrapper">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53177.455518120216!2d-73.67898106715815!3d45.53431597810484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc918f3d034296f%3A0x340465ebec9fd321!2sCostco%20Wholesale!5e0!3m2!1sen!2sca!4v1750714871208!5m2!1sen!2sca"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2791.3610908131727!2d-73.6422751231671!3d45.60338712414033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91f77fce68ea1%3A0x1a4a780002e1aa94!2s4718%20Boul.%20Gouin%20E%2C%20Montr%C3%A9al%2C%20QC%20H1H%201G1!5e0!3m2!1sen!2sca!4v1751919063064!5m2!1sen!2sca"
               width="100%"
               height="450"
               style={{ border: 0 }}
@@ -104,22 +119,19 @@ function Home() {
               title="Our Office Location"
             />
           </div>
-        </div>
-      </section>
-      <section className="contact-section" id="contact">
-        <div className="contact-container">
-          <h2 className="section-title">{t("contact")}</h2>
-          <p>{t("contact-desc")}</p>
+
           <div className="contact-icons">
             <div className="icon">
               <img src={Phone} alt="An icon of a phone" />
               <p>(123) 456-7890</p>
             </div>
-            <div className="icon">
+            {/* <div className="icon">
               <img src={Email} alt="An icon of an email" />
               <p>HvCmD@example.com</p>
-            </div>
+            </div> */}
           </div>
+          <h3 className="contact-email">Send us an email</h3>
+          <ContactForm />
         </div>
       </section>
     </div>

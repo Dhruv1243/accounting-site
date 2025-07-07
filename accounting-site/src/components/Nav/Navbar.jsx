@@ -8,7 +8,7 @@ function Navbar() {
   const currentLang = i18n.language;
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
-    localStorage.setItem("preferredLanguage", lng); //this will just load the language when the page is reloaded
+    localStorage.setItem("language", lng); // 👈 Save selection
   };
   return (
     <div className="navbar">
@@ -25,7 +25,7 @@ function Navbar() {
           <a href="#services">{t("nav-services")}</a>
         </h1>
         <h1 className="navlink">
-          <a href="#location">{t("nav-location")}</a>
+          <a href="#location">{t("nav-transparency")}</a>
         </h1>
         <h1 className="navlink">
           <a href="#contact">{t("nav-contact")}</a>

@@ -1,0 +1,50 @@
+/* About Section */
+.about-section {
+  padding: 100px 20px;
+  background: white;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 900px;
+  width: 100%;
+}
+
+.about-content {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.about-text {
+  margin: 20px 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.about-list {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin: 20px auto;
+  text-align: left;
+  display: inline-block; /* Keeps it centered visually while text-align is left */
+}
+
+.about-list li {
+  margin: 8px 0;
+  font-size: 1.05rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 20px;
+}
+
+.about-text {
+  font-size: 1.125rem;
+  color: #64748b;
+  margin-bottom: 50px;
+  line-height: 1.7;
+}

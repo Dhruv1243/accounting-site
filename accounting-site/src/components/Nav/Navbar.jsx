@@ -46,7 +46,7 @@ function Navbar() {
           </a>
         </h1>
         <h1 className="navlink">
-          <a href="#location" onClick={() => setMenuOpen(false)}>
+          <a href="#transparency" onClick={() => setMenuOpen(false)}>
             {t("nav-transparency")}
           </a>
         </h1>

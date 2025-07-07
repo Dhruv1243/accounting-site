@@ -62,3 +62,39 @@
   background-color: #1e293b;
   color: white;
 }
+/* Responsive Navbar */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    height: auto;
+  }
+
+  .logo {
+    height: 70px;
+    margin-bottom: 15px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .navlink a {
+    font-size: 1.2rem;
+    padding: 8px 0;
+  }
+
+  .language-switcher {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .language-switcher button {
+    font-size: 0.95rem;
+    padding: 6px 12px;
+  }
+}

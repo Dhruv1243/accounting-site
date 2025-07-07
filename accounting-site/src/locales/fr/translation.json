@@ -51,5 +51,22 @@
   "nav-about": "À propos",
   "nav-services": "Services",
   "nav-transparency": "Transparence",
-  "nav-contact": "Contact"
+  "nav-contact": "Contact",
+  "form": {
+    "name": "Nom",
+    "email": "Adresse courriel",
+    "phone": "Numéro de téléphone",
+    "message": "Message",
+    "service": "Type de service",
+    "required": "Ce champ est requis.",
+
+    "submit": "Envoyer",
+    "namePlaceholder": "Entrez votre nom",
+    "emailPlaceholder": "Entrez votre adresse courriel",
+    "phonePlaceholder": "Entrez votre numéro de téléphone",
+    "messagePlaceholder": "Entrez votre message",
+    "servicePlaceholder": "-- Veuillez choisir un service --",
+    "success": "Courriel envoyé avec succès!",
+    "spamWarning": "Vérifiez votre dossier de courrier indésirable au cas où."
+  }
 }

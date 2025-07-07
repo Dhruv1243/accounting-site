@@ -51,5 +51,21 @@
   "nav-about": "About",
   "nav-services": "Services",
   "nav-transparency": "Transparency",
-  "nav-contact": "Contact"
+  "nav-contact": "Contact",
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "message": "Message",
+    "service": "Service Type",
+    "required": "This field is required.",
+    "submit": "Submit",
+    "namePlaceholder": "Enter your name",
+    "emailPlaceholder": "Enter your email",
+    "phonePlaceholder": "Enter your phone number",
+    "messagePlaceholder": "Enter your message",
+    "servicePlaceholder": "-- Please choose a service --",
+    "success": "Email sent successfully!",
+    "spamWarning": "Check your spam folder just in case."
+  }
 }

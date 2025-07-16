@@ -33,7 +33,7 @@ function ContactSection() {
               <p>HvCmD@example.com</p>
             </div> */}
         </div>
-        <h3 className="contact-email">Send us an email</h3>
+        <h3 className="contact-email">{t("email-send")}</h3>
         <ContactForm />
       </div>
     </section>

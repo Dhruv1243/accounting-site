@@ -52,6 +52,7 @@
   "nav-services": "Services",
   "nav-transparency": "Transparence",
   "nav-contact": "Contact",
+  "email-send": "Envoyez-nous un courriel",
   "form": {
     "name": "Nom",
     "email": "Adresse courriel",

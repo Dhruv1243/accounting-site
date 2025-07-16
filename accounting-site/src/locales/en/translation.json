@@ -52,6 +52,7 @@
   "nav-services": "Services",
   "nav-transparency": "Transparency",
   "nav-contact": "Contact",
+  "email-send": "Send us an email",
   "form": {
     "name": "Name",
     "email": "Email",

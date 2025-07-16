@@ -26,7 +26,7 @@ function ContactSection() {
         <div className="contact-icons">
           <div className="icon">
             <img src={Phone} alt="An icon of a phone" />
-            <p>(123) 456-7890</p>
+            <p>(438) 373-1621 </p>
           </div>
           {/* <div className="icon">
               <img src={Email} alt="An icon of an email" />
